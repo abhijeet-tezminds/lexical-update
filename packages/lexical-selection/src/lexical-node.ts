@@ -432,4 +432,36 @@ export function $forEachSelectedTextNode(
       }
     }
   }
+
+  // let selectedNodesTextLength = 0;
+  // let isListSelected = false;
+  // // style the list items
+  // for (let i = 0; i < selectedNodes.length; i++) {
+  //   const selectedNode = selectedNodes[i];
+  //   // No actual text is selected, so do nothing.
+  //   if (startOffset === endOffset) {
+  //     return;
+  //   }
+  //   if ($isListItemNode(selectedNode)) {
+  //     fn(selectedNode);
+  //     isListSelected = true;
+  //   }
+  //   selectedNodesTextLength += selectedNode.getTextContentSize();
+  // }
+
+  // const listNode = firstNode.getParent();
+
+  // if ($isListItemNode(listNode)) {
+  //   // No actual text is selected, so do nothing.
+  //   if (startOffset === endOffset) {
+  //     return;
+  //   }
+
+  //   if (
+  //     !isListSelected &&
+  //     listNode.getTextContentSize() === selectedNodesTextLength
+  //   ) {
+  //     fn(listNode);
+  //   }
+  // }
 }

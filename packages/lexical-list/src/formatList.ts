@@ -14,6 +14,7 @@ import {
   $isLeafNode,
   $isRangeSelection,
   $isRootOrShadowRoot,
+  $isTextNode,
   ElementNode,
   LexicalEditor,
   LexicalNode,
@@ -86,6 +87,7 @@ export function insertList(editor: LexicalEditor, listType: ListType): void {
             if ($isElementNode(anchorNode)) {
               listItem.setFormat(anchorNode.getFormatType());
               listItem.setIndent(anchorNode.getIndent());
+              // listItem.setStyle(anchorNode.getStyle());
             }
             list.append(listItem);
           } else if ($isListItemNode(anchorNode)) {
@@ -156,7 +158,15 @@ function $createListOrMerge(node: ElementNode, listType: ListType): ListNode {
   const previousSibling = node.getPreviousSibling();
   const nextSibling = node.getNextSibling();
   const listItem = $createListItemNode();
-  append(listItem, node.getChildren());
+  const childList = node.getChildren();
+  append(listItem, childList);
+
+  let nodeStyles = '';
+  childList.forEach((element) => {
+    if ($isTextNode(element)) {
+      nodeStyles += element.getStyle();
+    }
+  });
 
   let targetList;
   if (
@@ -185,6 +195,11 @@ function $createListOrMerge(node: ElementNode, listType: ListType): ListNode {
   // listItem needs to be attached to root prior to setting indent
   listItem.setFormat(node.getFormatType());
   listItem.setIndent(node.getIndent());
+
+  if (nodeStyles) {
+    listItem.setStyle(nodeStyles);
+  }
+
   node.remove();
 
   return targetList;
