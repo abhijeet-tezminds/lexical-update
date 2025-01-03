@@ -79,7 +79,7 @@ export default function CommunityContributors() {
 
       <p>
         <a
-          href="https://github.com/facebook/lexical/graphs/contributors"
+          href="https://github.com/abhijeet-tezminds/lexical-update/graphs/contributors"
           target="_blank"
           rel="noreferrer">
           <Translate

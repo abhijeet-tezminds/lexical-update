@@ -18,7 +18,7 @@ Of these nodes, three of them are exposed from the `lexical` package, making the
 - `TextNode`
 - `DecoratorNode`
 
-### [`RootNode`](https://github.com/facebook/lexical/blob/main/packages/lexical/src/nodes/LexicalRootNode.ts)
+### [`RootNode`](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical/src/nodes/LexicalRootNode.ts)
 
 There is only ever a single `RootNode` in an `EditorState` and it is always at the top and it represents the
 `contenteditable` itself. This means that the `RootNode` does not have a parent or siblings.
@@ -43,17 +43,17 @@ The `RootNode` has specific characteristics and restrictions to maintain editor 
 
 By design, the `RootNode` serves as a container for the editor's content rather than an active part of the document's logical structure. This approach simplifies operations like serialization and keeps the focus on content nodes.
 
-### [`LineBreakNode`](https://github.com/facebook/lexical/blob/main/packages/lexical/src/nodes/LexicalLineBreakNode.ts)
+### [`LineBreakNode`](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical/src/nodes/LexicalLineBreakNode.ts)
 
 You should never have `'\n'` in your text nodes, instead you should use the `LineBreakNode` which represents
 `'\n'`, and more importantly, can work consistently between browsers and operating systems.
 
-### [`ElementNode`](https://github.com/facebook/lexical/blob/main/packages/lexical/src/nodes/LexicalElementNode.ts)
+### [`ElementNode`](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical/src/nodes/LexicalElementNode.ts)
 
 Used as parent for other nodes, can be block level (`ParagraphNode`, `HeadingNode`) and inline (`LinkNode`).
 Has various methods which define its behaviour that can be overridden during extension (`isInline`, `canBeEmpty`, `canInsertTextBefore` and more)
 
-### [`TextNode`](https://github.com/facebook/lexical/blob/main/packages/lexical/src/nodes/LexicalTextNode.ts)
+### [`TextNode`](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical/src/nodes/LexicalTextNode.ts)
 
 Leaf type of node that contains text. It also includes few text-specific properties:
 
@@ -63,7 +63,7 @@ Leaf type of node that contains text. It also includes few text-specific propert
   - `segmented` - its content deleted by segments (one word at a time), it is editable although node becomes non-segmented once its content is updated
 - `style` can be used to apply inline css styles to text
 
-### [`DecoratorNode`](https://github.com/facebook/lexical/blob/main/packages/lexical/src/nodes/LexicalDecoratorNode.ts)
+### [`DecoratorNode`](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical/src/nodes/LexicalDecoratorNode.ts)
 
 Wrapper node to insert arbitrary view (component) inside the editor. Decorator node rendering is framework-agnostic and
 can output components from React, vanilla js or other frameworks.

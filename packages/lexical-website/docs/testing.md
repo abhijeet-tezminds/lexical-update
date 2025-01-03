@@ -12,7 +12,7 @@ To run the tests use:
 npm run test-unit
 ```
 
-Unit tests can be found in [this directory](https://github.com/facebook/lexical/tree/main/packages/lexical/src/__tests__).
+Unit tests can be found in [this directory](https://github.com/abhijeet-tezminds/lexical-update/tree/main/packages/lexical/src/__tests__).
 
 ## End-to-end (E2E) tests
 
@@ -33,7 +33,7 @@ npm run start &
 npm run test-e2e-chromium # or -firefox, -webkit
 ```
 
-E2E tests can be found in [this directory](https://github.com/facebook/lexical/tree/main/packages/lexical-playground/__tests__)
+E2E tests can be found in [this directory](https://github.com/abhijeet-tezminds/lexical-update/tree/main/packages/lexical-playground/__tests__)
 
 ## General guidelines
 

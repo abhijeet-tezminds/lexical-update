@@ -142,6 +142,6 @@ registerLexicalTextEntity<N: TextNode>(
 
 ## Examples
 
-1. [Emojis](https://github.com/facebook/lexical/blob/main/packages/lexical-playground/src/plugins/EmojisPlugin/index.ts)
-2. [AutoLink](https://github.com/facebook/lexical/blob/main/packages/lexical-playground/src/plugins/AutoLinkPlugin/index.tsx)
-3. [HashtagPlugin](https://github.com/facebook/lexical/blob/main/packages/lexical-react/src/LexicalHashtagPlugin.ts)
+1. [Emojis](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical-playground/src/plugins/EmojisPlugin/index.ts)
+2. [AutoLink](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical-playground/src/plugins/AutoLinkPlugin/index.tsx)
+3. [HashtagPlugin](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical-react/src/LexicalHashtagPlugin.ts)

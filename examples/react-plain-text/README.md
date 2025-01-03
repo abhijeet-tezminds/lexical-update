@@ -4,4 +4,4 @@ Here we have simplest Lexical setup in plaintext configuration (`@lexical/plain-
 
 **Run it locally:** `npm i && npm run dev`
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-plain-text?file=src/main.tsx)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/examples/react-plain-text?file=src/main.tsx)

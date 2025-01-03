@@ -95,15 +95,15 @@ This only automates the first step, creating a single file:
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/facebook/lexical.git",
+    "url": "git+https://github.com/abhijeet-tezminds/lexical-update.git",
     "directory": "packages/lexical-eslint-plugin"
   },
   "main": "LexicalEslintPlugin.js",
   "types": "index.d.ts",
   "bugs": {
-    "url": "https://github.com/facebook/lexical/issues"
+    "url": "https://github.com/abhijeet-tezminds/lexical-update/issues"
   },
-  "homepage": "https://github.com/facebook/lexical#readme"
+  "homepage": "https://github.com/abhijeet-tezminds/lexical-update#readme"
 }
 ```
 </details>

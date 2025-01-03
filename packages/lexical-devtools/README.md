@@ -60,7 +60,7 @@ If new version of the extension contains big changes to it's UI or functionality
 
 **Chrome, Firefox, Edge:**
 
-Go to the ["Publish DevTools extension to stores" GitHub action](https://github.com/facebook/lexical/actions/workflows/devtools-extension-publish.yml) and start it manually. Increase "Build version" in case publish happens more than once within single Lexical monorepo version.
+Go to the ["Publish DevTools extension to stores" GitHub action](https://github.com/abhijeet-tezminds/lexical-update/actions/workflows/devtools-extension-publish.yml) and start it manually. Increase "Build version" in case publish happens more than once within single Lexical monorepo version.
 
 **Safari:**
 

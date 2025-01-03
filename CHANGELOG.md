@@ -1754,14 +1754,14 @@ editor.setReadyOnly -> editor.setEditable()
 editor.registerReadOnlyListener -> editor.registerEditableListener()
 editor config { readOnly: true } -> { editable: boolean }
 
-https://github.com/facebook/lexical/pull/2912
+https://github.com/abhijeet-tezminds/lexical-update/pull/2912
 
 #### Markdown Transformers Require Dependencies
 
 The "dependencies" property is now required for custom markdown Element and TextMatch Transformers. It takes an array of LexicalNode subclasses and
 asserts that they're available in the editor when transforms are registered.
 
-https://github.com/facebook/lexical/pull/2910
+https://github.com/abhijeet-tezminds/lexical-update/pull/2910
 
 #### Selection Updates when isEditable is false (previous ReadOnly mode)
 
@@ -1873,7 +1873,7 @@ Commits:
 - Selection#formatText to retain selection and handle all text nodes (#2770) Maksim Horbachevsky
 - Fixed scrolling bar view (#2772) Karam Qaoud
 - Add LexicalAutoEmbedPlugin and (Playground)AutoEmbedPlugin. (#2704) Tyler Bainbridge
-- Bug: Undo command after creating a Quote removes text after Quote element (https://github.com/facebook/lexical/issues/2750) (#2767) Alexandru Pavaloi
+- Bug: Undo command after creating a Quote removes text after Quote element (https://github.com/abhijeet-tezminds/lexical-update/issues/2750) (#2767) Alexandru Pavaloi
 - Handle insertTranspose for beforeinput event (#2764) Maksim Horbachevsky
 - Fix selection format for empty paragraphs (#2759) Maksim Horbachevsky
 - Remove unused keys from evens and utils (#2763) John Flockton
@@ -1894,7 +1894,7 @@ Commits:
 - fix: `timeoutId` type (#2735) Shanmughapriyan S
 - fix: some typo (#2737) 子瞻 Luci
 - docs: readme improvements (#2734) GJunior
-- Bug: typo in Documentation. It should be ReactNode instead of React (https://github.com/facebook/lexical/issues/2731) (#2732) Alexandru Pavaloi
+- Bug: typo in Documentation. It should be ReactNode instead of React (https://github.com/abhijeet-tezminds/lexical-update/issues/2731) (#2732) Alexandru Pavaloi
 - Added table of contents documentation (#2720) Karam Qaoud
 - Fix: Minor Typo on Lexical Playground ActionsPlugin (#2717) Yamil García Hernández
 - Excalidraw fixes (#2711) John Flockton
@@ -2328,5 +2328,5 @@ Playground
 
 ## 0.1.8 (February 11, 2022)
 
-- `Lexical{Plain/Rich}TextPlugin` and `DEPRECATED_use{Plain/Rich}TextPlugin` no longer create a ParagraphNode for you. This logic has been decoupled into a separate plugin <BootstrapPlugin />. The Bootstrap plugin also accepts an initialPayloadFn and clearEditorFn for custom initialization (i.e. edit behavior from server data). `<BootstrapPlugin /> <RichTextPlugin .. />`. If you're using the `DEPRECATED_{Plain/Rich}Text` version you may also want to copy-paste this hook and run it before the RichText initialization - https://github.com/facebook/lexical/blob/main/packages/lexical/src/__tests__/utils/DEPRECATED__useLexicalBootstrap.js
+- `Lexical{Plain/Rich}TextPlugin` and `DEPRECATED_use{Plain/Rich}TextPlugin` no longer create a ParagraphNode for you. This logic has been decoupled into a separate plugin <BootstrapPlugin />. The Bootstrap plugin also accepts an initialPayloadFn and clearEditorFn for custom initialization (i.e. edit behavior from server data). `<BootstrapPlugin /> <RichTextPlugin .. />`. If you're using the `DEPRECATED_{Plain/Rich}Text` version you may also want to copy-paste this hook and run it before the RichText initialization - https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical/src/__tests__/utils/DEPRECATED__useLexicalBootstrap.js
 - Bugfixes.

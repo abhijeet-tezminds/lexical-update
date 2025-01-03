@@ -7,7 +7,7 @@ Internally, Lexical maintains the state of a given editor in memory, updating it
 
 ## HTML
 
-Currently, HTML serialization is primarily used to transfer data between Lexical and non-Lexical editors (such as Google Docs or Quip) via the copy & paste functionality in [`@lexical/clipboard`](https://github.com/facebook/lexical/blob/main/packages/lexical-clipboard/README.md), but we also offer generic utilities for converting `Lexical` -> `HTML` and `HTML` -> `Lexical` in our [`@lexical/html`](https://github.com/facebook/lexical/blob/main/packages/lexical-html/README.md) package.
+Currently, HTML serialization is primarily used to transfer data between Lexical and non-Lexical editors (such as Google Docs or Quip) via the copy & paste functionality in [`@lexical/clipboard`](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical-clipboard/README.md), but we also offer generic utilities for converting `Lexical` -> `HTML` and `HTML` -> `Lexical` in our [`@lexical/html`](https://github.com/abhijeet-tezminds/lexical-update/blob/main/packages/lexical-html/README.md) package.
 
 ### Lexical -> HTML
 When generating HTML from an editor you can pass in a selection object to narrow it down to a certain section or pass in null to convert the whole editor.
@@ -522,5 +522,5 @@ type HTMLConfig = {
 
 #### Example of a use case for the `html` Property for Import and Export Configuration:
 
-[Rich text sandbox](https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-rich?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)
+[Rich text sandbox](https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/examples/react-rich?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)
 

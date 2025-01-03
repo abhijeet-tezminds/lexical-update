@@ -90,15 +90,15 @@ function $prepopulatedRichText() {
       ),
       $createListItemNode().append(
         $createTextNode(`Check out the code on our `),
-        $createLinkNode('https://github.com/facebook/lexical').append(
-          $createTextNode('GitHub repository'),
-        ),
+        $createLinkNode(
+          'https://github.com/abhijeet-tezminds/lexical-update',
+        ).append($createTextNode('GitHub repository')),
         $createTextNode(`.`),
       ),
       $createListItemNode().append(
         $createTextNode(`Playground code can be found `),
         $createLinkNode(
-          'https://github.com/facebook/lexical/tree/main/packages/lexical-playground',
+          'https://github.com/abhijeet-tezminds/lexical-update/tree/main/packages/lexical-playground',
         ).append($createTextNode('here')),
         $createTextNode(`.`),
       ),
@@ -239,7 +239,7 @@ export default function PlaygroundApp(): JSX.Element {
         <App />
       </FlashMessageContext>
       <a
-        href="https://github.com/facebook/lexical/tree/main/packages/lexical-playground"
+        href="https://github.com/abhijeet-tezminds/lexical-update/tree/main/packages/lexical-playground"
         className="github-corner"
         aria-label="View source on GitHub">
         <svg

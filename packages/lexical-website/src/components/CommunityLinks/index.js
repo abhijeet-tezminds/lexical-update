@@ -34,7 +34,7 @@ const links = [
         GitHub
       </Translate>
     ),
-    url: 'https://github.com/facebook/lexical',
+    url: 'https://github.com/abhijeet-tezminds/lexical-update',
   },
   {
     description: (

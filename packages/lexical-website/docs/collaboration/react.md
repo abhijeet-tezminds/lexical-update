@@ -10,13 +10,13 @@ This is on top of the Yjs bindings provided by `@lexical/yjs`.
 
 :::tip
 
-Clone [Lexical GitHub repo](https://github.com/facebook/lexical), run `npm i && npm run start` and open [`http://localhost:3000/split/?isCollab=true`](http://localhost:3000/split/?isCollab=true) to launch playground in collaborative mode.
+Clone [Lexical GitHub repo](https://github.com/abhijeet-tezminds/lexical-update), run `npm i && npm run start` and open [`http://localhost:3000/split/?isCollab=true`](http://localhost:3000/split/?isCollab=true) to launch playground in collaborative mode.
 
 :::
 
 ## Getting started
 
-This guide is based on [examples/react-rich](https://github.com/facebook/lexical/tree/main/examples/react-rich) example.
+This guide is based on [examples/react-rich](https://github.com/abhijeet-tezminds/lexical-update/tree/main/examples/react-rich) example.
 
 **Install minimal set of the required dependencies:**
 ```bash
@@ -98,18 +98,18 @@ function Editor() {
 
 ## See it in action
 
-Source code: [examples/react-rich-collab](https://github.com/facebook/lexical/tree/main/examples/react-rich-collab)
+Source code: [examples/react-rich-collab](https://github.com/abhijeet-tezminds/lexical-update/tree/main/examples/react-rich-collab)
 
-<iframe width="100%" height="600" src="https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-rich-collab?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview" sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts"></iframe>
+<iframe width="100%" height="600" src="https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/examples/react-rich-collab?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview" sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts"></iframe>
 
 ## Building collaborative plugins
 
 [Lexical Playground](https://playground.lexical.dev/) features set of the collaboration enabled plugins that integrate with primary document via `useCollaborationContext()` hook. Notable mentions:
 
-- [`CommentPlugin`](https://github.com/facebook/lexical/tree/v0.14.5/packages/lexical-playground/src/plugins/CommentPlugin) - features use of the separate provider and Yjs room to sync comments.
-- [`ImageComponent`](https://github.com/facebook/lexical/blob/v0.14.5/packages/lexical-playground/src/nodes/ImageComponent.tsx#L390) - features use of the `LexicalNestedComposer` paired with `CollaborationPlugin`.
-- [`PollOptionComponent`](https://github.com/facebook/lexical/blob/v0.14.5/packages/lexical-playground/src/nodes/PollComponent.tsx#L78) - showcases poll implementation using `clientID` from Yjs context.
-- [`StickyPlugin`](https://github.com/facebook/lexical/tree/v0.14.5/packages/lexical-playground/src/plugins/StickyPlugin) - features use of the `LexicalNestedComposer` paired with `CollaborationPlugin` as well as sticky note position real-time sync.
+- [`CommentPlugin`](https://github.com/abhijeet-tezminds/lexical-update/tree/v0.14.5/packages/lexical-playground/src/plugins/CommentPlugin) - features use of the separate provider and Yjs room to sync comments.
+- [`ImageComponent`](https://github.com/abhijeet-tezminds/lexical-update/blob/v0.14.5/packages/lexical-playground/src/nodes/ImageComponent.tsx#L390) - features use of the `LexicalNestedComposer` paired with `CollaborationPlugin`.
+- [`PollOptionComponent`](https://github.com/abhijeet-tezminds/lexical-update/blob/v0.14.5/packages/lexical-playground/src/nodes/PollComponent.tsx#L78) - showcases poll implementation using `clientID` from Yjs context.
+- [`StickyPlugin`](https://github.com/abhijeet-tezminds/lexical-update/tree/v0.14.5/packages/lexical-playground/src/plugins/StickyPlugin) - features use of the `LexicalNestedComposer` paired with `CollaborationPlugin` as well as sticky note position real-time sync.
 
 :::note
 

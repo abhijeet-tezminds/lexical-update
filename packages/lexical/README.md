@@ -26,7 +26,7 @@ The `lexical` package contains only the core Lexical engine and nodes. This pack
 ## Working with Lexical
 
 This section covers how to use Lexical, independently of any framework or library. For those intending to use Lexical in their React applications,
-it's advisable to [check out the source-code for the hooks that are shipped in `@lexical/react`](https://github.com/facebook/lexical/tree/main/packages/lexical-react/src).
+it's advisable to [check out the source-code for the hooks that are shipped in `@lexical/react`](https://github.com/abhijeet-tezminds/lexical-update/tree/main/packages/lexical-react/src).
 
 ### Creating an editor and using it
 

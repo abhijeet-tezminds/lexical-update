@@ -172,7 +172,7 @@ test.describe('Autocomplete', () => {
     isCollab,
   }) => {
     test.skip(isPlainText);
-    // Autocomplete has known issues in collab https://github.com/facebook/lexical/issues/6844
+    // Autocomplete has known issues in collab https://github.com/abhijeet-tezminds/lexical-update/issues/6844
     test.skip(isCollab);
     await focusEditor(page);
     await toggleBold(page);

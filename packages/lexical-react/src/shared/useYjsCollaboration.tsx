@@ -164,7 +164,7 @@ export function useYjsCollaboration(
           // It's possible that there is a similar issue with
           // TOGGLE_CONNECT_COMMAND below when the provider connect returns a
           // promise.
-          // https://github.com/facebook/lexical/issues/6640
+          // https://github.com/abhijeet-tezminds/lexical-update/issues/6640
           disconnect();
         }
       }

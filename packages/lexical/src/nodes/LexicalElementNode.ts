@@ -829,7 +829,7 @@ export class ElementNode extends LexicalNode {
         // to use `padding-right` in RTL languages, `padding-left` in `LTR` languages, or
         // `text-indent` if you are ok with first-line indents.
         // We recommend keeping multiples of 40px to maintain consistency with list-items
-        // (see https://github.com/facebook/lexical/pull/4025)
+        // (see https://github.com/abhijeet-tezminds/lexical-update/pull/4025)
         element.style.paddingInlineStart = `${indent * 40}px`;
       }
     }

@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/facebook/lexical/tests.yml"/>
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/abhijeet-tezminds/lexical-update/tests.yml"/>
   <a href="https://www.npmjs.com/package/lexical">
     <img alt="Visit the NPM page" src="https://img.shields.io/npm/v/lexical"/>
   </a>
@@ -22,8 +22,8 @@ For documentation and more information about Lexical, be sure to [visit the Lexi
 Here are some examples of what you can do with Lexical:
 
 - [Lexical Playground](https://playground.lexical.dev)
-- [Plain text sandbox](https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-plain-text?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)
-- [Rich text sandbox](https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-rich?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)
+- [Plain text sandbox](https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/examples/react-plain-text?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)
+- [Rich text sandbox](https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/examples/react-rich?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)
 
 
 ---
@@ -50,7 +50,7 @@ Install `lexical` and `@lexical/react`:
 npm install --save lexical @lexical/react
 ```
 
-Below is an example of a basic plain text editor using `lexical` and `@lexical/react` ([try it yourself](https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-plain-text?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)).
+Below is an example of a basic plain text editor using `lexical` and `@lexical/react` ([try it yourself](https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/examples/react-plain-text?embed=1&file=src%2FApp.tsx&terminalHeight=0&ctl=1&showSidebar=0&devtoolsheight=0&view=preview)).
 
 ```jsx
 import {$getRoot, $getSelection} from 'lexical';
@@ -229,7 +229,7 @@ propagated through all handlers by priority until a handler stops the propagatio
 ## Working with Lexical
 
 This section covers how to use Lexical, independently of any framework or library. For those intending to use Lexical in their React applications,
-it's advisable to [check out the source-code for the hooks that are shipped in `@lexical/react`](https://github.com/facebook/lexical/tree/main/packages/lexical-react/src).
+it's advisable to [check out the source-code for the hooks that are shipped in `@lexical/react`](https://github.com/abhijeet-tezminds/lexical-update/tree/main/packages/lexical-react/src).
 
 ### Creating an editor and using it
 
@@ -346,7 +346,7 @@ editor.registerUpdateListener(({editorState}) => {
 
 ## Contributing to Lexical
 
-Please read the [CONTRIBUTING.md](https://github.com/facebook/lexical/blob/main/CONTRIBUTING.md).
+Please read the [CONTRIBUTING.md](https://github.com/abhijeet-tezminds/lexical-update/blob/main/CONTRIBUTING.md).
 
 ### Optional but recommended, use VSCode for development
 
@@ -412,5 +412,5 @@ Lexical engineers are checking this regularly.
 
 ### License
 
-Lexical is [MIT licensed](https://github.com/facebook/lexical/blob/main/LICENSE).
+Lexical is [MIT licensed](https://github.com/abhijeet-tezminds/lexical-update/blob/main/LICENSE).
 # lexical-update

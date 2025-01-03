@@ -4,4 +4,4 @@ Here we have simplest Lexical Table Plugin setup in rich text configuration (`@l
 
 **Run it locally:** `npm i && npm run dev`
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-table?file=src/main.tsx)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/examples/react-table?file=src/main.tsx)

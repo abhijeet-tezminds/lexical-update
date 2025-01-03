@@ -131,7 +131,7 @@ describe('LexicalSelection tests', () => {
             await insertText({container, editor, method: 'insertText'});
           });
 
-          // TODO: https://github.com/facebook/lexical/issues/4295
+          // TODO: https://github.com/abhijeet-tezminds/lexical-update/issues/4295
           // test('Can insert text before a start-of-paragraph inline element, using insertNodes', async () => {
           //   const {container, editor} = await setup('start-of-paragraph');
 
@@ -254,7 +254,7 @@ describe('LexicalSelection tests', () => {
             await insertText({container, editor, method: 'insertText'});
           });
 
-          // TODO: https://github.com/facebook/lexical/issues/4295
+          // TODO: https://github.com/abhijeet-tezminds/lexical-update/issues/4295
           // test('Can insert text after a start-of-paragraph inline element, using insertNodes', async () => {
           //   const {container, editor} = await setup('start-of-paragraph');
 
@@ -295,7 +295,7 @@ describe('LexicalSelection tests', () => {
             await insertText({container, editor, method: 'insertText'});
           });
 
-          // TODO: https://github.com/facebook/lexical/issues/4295
+          // TODO: https://github.com/abhijeet-tezminds/lexical-update/issues/4295
           // test('Can insert text after a mid-paragraph inline element, using insertNodes', async () => {
           //   const {container, editor} = await setup('mid-paragraph');
 
@@ -337,7 +337,7 @@ describe('LexicalSelection tests', () => {
             await insertText({container, editor, method: 'insertText'});
           });
 
-          // TODO: https://github.com/facebook/lexical/issues/4295
+          // TODO: https://github.com/abhijeet-tezminds/lexical-update/issues/4295
           // test('Can insert text after an end-of-paragraph inline element, using insertNodes', async () => {
           //   const {container, editor} = await setup('end-of-paragraph');
 

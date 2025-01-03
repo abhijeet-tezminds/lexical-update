@@ -19,8 +19,9 @@ const {packagesManager} = process.env.FB_INTERNAL
 const path = require('node:path');
 
 const TITLE = 'Lexical';
-const GITHUB_REPO_URL = 'https://github.com/facebook/lexical'; // TODO: Update when repo name updated
-const IOS_GITHUB_REPO_URL = 'https://github.com/facebook/lexical-ios';
+const GITHUB_REPO_URL = 'https://github.com/abhijeet-tezminds/lexical-update'; // TODO: Update when repo name updated
+const IOS_GITHUB_REPO_URL =
+  'https://github.com/abhijeet-tezminds/lexical-update-ios';
 
 function sourceLinkOptions() {
   const sourceLinkTemplate = `${GITHUB_REPO_URL}/tree/{gitRevision}/{path}#L{line}`;
@@ -233,7 +234,7 @@ const config = {
   markdown: {
     preprocessor: ({fileContent}) =>
       fileContent.replaceAll(
-        'https://stackblitz.com/github/facebook/lexical/tree/main/',
+        'https://stackblitz.com/github/abhijeet-tezminds/lexical-update/tree/main/',
         STACKBLITZ_PREFIX,
       ),
   },
@@ -353,7 +354,7 @@ const config = {
           {
             items: [
               {
-                href: 'https://github.com/facebook/lexical',
+                href: 'https://github.com/abhijeet-tezminds/lexical-update',
                 label: 'GitHub',
               },
             ],
