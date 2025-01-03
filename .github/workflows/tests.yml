@@ -20,5 +20,5 @@ jobs:
     uses: ./.github/workflows/call-core-tests.yml
 
   e2e-tests:
-    if: github.repository_owner == 'facebook'
+    if: github.repository_owner == 'abhijeet-tezminds'
     uses: ./.github/workflows/call-e2e-canary-tests.yml

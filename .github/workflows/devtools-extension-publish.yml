@@ -11,7 +11,7 @@ on:
 
 jobs:
   release:
-    if: github.repository_owner == 'facebook'
+    if: github.repository_owner == 'abhijeet-tezminds'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

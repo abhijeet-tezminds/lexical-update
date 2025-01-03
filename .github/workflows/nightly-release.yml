@@ -6,15 +6,13 @@ on:
 jobs:
   increment-version:
     # prevents this action from running on forks
-    if: github.repository_owner == 'facebook'
+    if: github.repository_owner == 'abhijeet-tezminds'
     uses: ./.github/workflows/call-increment-version.yml
     with:
       channel: nightly
       increment: prerelease
       dry-run: false
-      git-repo: 'git@github.com:facebook/lexical.git'
-    secrets:
-      SSH_KEY: ${{ secrets.SSH_KEY }}
+      git-repo: 'git@github.com:abhijeet-tezminds/lexical-update.git'
   npm-release:
     uses: ./.github/workflows/call-npm-publish.yml
     needs: [increment-version]
