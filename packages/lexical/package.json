@@ -1,9 +1,9 @@
 {
-  "name": "lexical",
+  "name": "lexical-update",
   "description": "Lexical is an extensible text editor framework that provides excellent reliability, accessible and performance.",
   "keywords": [
     "react",
-    "lexical",
+    "lexical-update",
     "editor",
     "contenteditable",
     "rich-text"
