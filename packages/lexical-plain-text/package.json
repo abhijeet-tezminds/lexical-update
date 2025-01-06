@@ -1,8 +1,8 @@
 {
-  "name": "@lexical/plain-text",
+  "name": "@lexical-update/plain-text",
   "description": "This package contains plain text helpers for Lexical.",
   "keywords": [
-    "lexical",
+    "lexical-update",
     "editor",
     "plain-text"
   ],
